@@ -6,7 +6,7 @@ The purpose of this project is to conduct a Customer Segmentation Analysis for a
 
 ## Tableau Dashboard
 The Sales Dashboard for Customer Segmenation can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard).<br>
-<img src="data%20visualization/Sales%20Dashboard.gif" height="100%" align="middle"><br>
+<img src="data%20visualization/Sales%20Dashboard.gif" height="500" align="middle"><br>
 
 <b>In case of failure of loading Jupyter Notebooks on Github, the following notebooks can be found in nbviewer. Click on the respective hyperlinks to view:</b>
 - [RFM Analysis.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Data-Analytics-Customer-Segmentation/blob/master/RFM%20Analysis.ipynb)

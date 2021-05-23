@@ -8,7 +8,7 @@ The purpose of this project is to gain insights from the yearly transactions and
 - [Data Analysis.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Analysis.ipynb)
 
 ## Tableau Dashboard
-The Sales Dashboard for Customer Segmenation can be found [here]().<br>
+The Sales Dashboard for Customer Segmenation can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard).<br>
 
 
 
@@ -80,7 +80,7 @@ The datasets used include:
 ## Tools and Technologies used
 The tools used in this project include:
 - __Python__ - This was needed to conduct <b>Data Quality Assessment</b> and also for <b>Data Cleaning processes</b>. With Python libraries <b>pandas, matplotlib, seaborn</b> exploratory data analysis of the datasets and to gain useful insights from the data was possible.
-- __Tableau__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>Sales Dashboard for Customer Segmenatationy</b> for the automobile bike company. The Tableau Sales Dashboard can be found [here](https://public.tableau.com/views/RetailStoreStrategyandAnalytics/RetailAnalyticsAnalysisStory?:language=en&:display_count=y&:origin=viz_share_link)
+- __Tableau__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>Sales Dashboard for Customer Segmenatationy</b> for the automobile bike company. The Tableau Sales Dashboard can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard)
 
 
 ## Built With

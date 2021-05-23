@@ -109,11 +109,11 @@ As of the current state of the Automobile business the current distribution of c
 ### 4. RFM Analysis Scatter Plots
 #### Recency vs Monetary :
 The visualization shows that recent customers have purchased more products and generated relatively more revenue than the customers who visited a while ageo.<br>
-<img src="data%20visualization/Recency%20vs%20Monetary.png" height="600" align="middle"><br>
+<img src="data%20visualization/Recency%20vs%20Monetary.PNG" height="400" align="middle"><br>
 
 #### Frequency vs Monetary : 
 The visualization shows that customers belonging to Platinum/ Very Loyal/ Becoming Loyal Customer Segments have a greater frequency and generate greater monetary for the business<br>
-<img src="data%20visualization/Frequency%20vs%20Monetary.png" height="600" align="middle"><br>
+<img src="data%20visualization/Frequency%20vs%20Monetary.PNG" height="400" align="middle"><br>
 
 ## Datasets Used
 The datasets used include:

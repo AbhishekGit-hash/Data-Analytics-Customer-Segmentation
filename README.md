@@ -73,8 +73,11 @@ Visualizations depicting how similar trial stores and control strores are is giv
 
 ## Datasets Used
 The datasets used include:
-- __Purchase_Behaviour.csv__: This dataset contains the customer related data like their Liability Number, Lifestage and to which Premium Tier they belong.
-- __Transaction_data.xlsx__: This dataset includes the transaction details for customer.
+- __Raw_data.xlsx__: This excel file dataset included the following sheets of data:
+  -  __Transactions_data.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
+  -  __NewCustomerList.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
+  -  __CustomerDemographic.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
+  -  __CustomerAddress.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
 
 
 ## Tools and Technologies used

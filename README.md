@@ -4,8 +4,11 @@
 The purpose of this project is to gain insights from the yearly transactions and customer data and understand the customers who purchase chips and their purchase behaviour from a  <b>chain of retail stores</b>. The insights from this analysis will help the supermarket's strategic plan for category review for upcoming years. The analysis will help in determining which customers segments should be targeted by the defining metrics which drives the business - total sales, store performance over the year and other drivers of sales. A strategic recommendation (supported by data) is presented in form of a Tableau Story which can be instrumental in upcoming category review.
 
 <b>In case of failure of loading Jupyter Notebooks on Github, the following notebooks can be found in nbviewer. Click on the respective hyperlinks to view:</b>
-- [Data Preparation.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Preparation.ipynb)
-- [Data Analysis.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Analysis.ipynb)
+- [RFM Analysis.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Preparation.ipynb)
+- [DQA and Data Cleaning CustomerDemographic.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Analysis.ipynb)
+- [DQA and Data Cleaning NewCustomerList.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Preparation.ipynb)
+- [DQA and Data Cleaning Transactions.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Analysis.ipynb)
+- [DQA and Data Cleaning Customer Address.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Retail-Strategy-and-Analytics/blob/main/Data%20Analysis.ipynb)
 
 ## Tableau Dashboard
 The Sales Dashboard for Customer Segmenation can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard).<br>

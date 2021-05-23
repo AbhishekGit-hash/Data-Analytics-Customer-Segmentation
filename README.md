@@ -36,8 +36,8 @@ After the data cleaning process, exploratory analysis on the dataset is performe
   - A steep drop in customers is observed in the 30-39 age group among the New Customers<br>
   <table>
   <tr>
-    <td><b>Old Customers</b></td>
-    <td><b>New Customers</b></td>
+    <td><b>Old Customers by Age Distribution</b></td>
+    <td><b>New Customers by Age Distribution</b></td>
   </tr>
   <tr>
     <td><img src="data%20visualization/Old%20Customers%20Age%20Distribution.PNG" height="400" align="middle"></td>
@@ -56,8 +56,8 @@ After the data cleaning process, exploratory analysis on the dataset is performe
   - Similar trend is observed among Old Customers as well.<br>
   <table>
   <tr>
-    <td><b>Old Customers</b></td>
-    <td><b>New Customers</b></td>
+    <td><b>Old Customers by Job Industry</b></td>
+    <td><b>New Customers by Job Industry</b></td>
   </tr>
   <tr>
     <td><img src="data%20visualization/Old%20Customers%20Job%20Industry.PNG" height="400" align="middle"></td>
@@ -65,47 +65,55 @@ After the data cleaning process, exploratory analysis on the dataset is performe
   </tr>
   </table>
 
-- <b>Number of Customers in each Customer Segment</b><br>
-Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream) which explains their high total sales. There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment. However amount of chips bought per customer can be a determining factor for higher sales.
-<img src="data%20visualization/Number%20of%20Shoppers.png" height="600" align="middle">
+- <b>Wealth Segmentation by Age Category</b><br> 
+  - Across all age categories the largest number of customers are from 'Mass Customer' Segment
+  - The next category comes from the 'High Net Worth' customers.
+  - In the age group 40-49, Affluent segment out performs the High Net Worth customers in terms of number of customers.<br>
+  <table>
+  <tr>
+    <td><b>Old Customers Wealth by Age Group</b></td>
+    <td><b>New Customers Wealth by Age Group</b></td>
+  </tr>
+  <tr>
+    <td><img src="data%20visualization/Old%20Customers%20Wealth%20Segment.PNG" height="400" align="middle"></td>
+    <td><img src="data%20visualization/New%20Customer%20Wealth%20Segment.PNG" height="400" align="middle"></td>
+  </tr>
+  </table>
 
-- <b>Amount of chips bought per Customer Segment</b><br>
-Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest average units of chips pack per transaction.
-<img src="data%20visualization/Average%20Units%20of%20chips%20purchased%20per%20Transaction.png" height="600" align="middle">
-
-- <b>Average price of pack bought per unit purchase of chips across Customer Segments</b><br>
-Mainstream midage and young singles and couples are more willing to pay more per packet of chips compared to their budget and premium counterparts. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption. This is also supported by there being fewer premium midage and young singles and couples buying chips compared to their mainstream counterparts.
-<img src="data%20visualization/Average%20Price%20of%20Chips%20per%20unit%20of%20purchase.png" height="600" align="middle">
-The difference in average price of chips pack isn't quite large across the customer segments. Hence performed <b>Two Sample t-test</b> to find out whether this difference in average price is statistically different. <br>
-The t-test results in a p-value came to be < 2.2e-16. Hence it means that the average price for mainstream young and midage singles and couples are significantly higher than that of budget or premium young and midage singles and couples.<br>
-<br>
-- <b>Brand and Pack Size preferred across Customer Segments</b><br>
-Chips brand Kettle is dominating every segment as the most purchased brand.Most frequent chip size purchased is 175gr followed by the 150gr chip size for all segments.
-<img src="data%20visualization/Brand%20and%20Pack%20size%20Popularity%20across%20segments.png" height="600" align="middle">
+- <b>Cars owned by States</b><br> 
+  - New South Wales has the largest number of people who donot own a car.
+  - In Victoria the proportion is quite even.
+  - In Queensland the number of people owning a car is greater than who donot have a car.
+  <img src="data%20visualization/Car%20Owners%20by%20State.PNG" height="400" align="middle">
 
 
-### 3. Experimentation and Uplift testing
-In this stage of analysis benchmark stores or control stores are established and their impact in trial store layouts on customer sales and number of customers visting the stores are tested and compared. Stores with store number 77, 86 and 88 are seleteced as trial stores and the goal is to establish control stores for each of these trial stores.The stores which were operational for the entire observation period (i.e. for the entire year, 12 months of data) are eligible to be a control store.
+### 3. RFM Analysis and Customer Segmenation
+In this stage of analysis the customer segmentation was done by developing an RFM Model. The RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach grouping customers into segments. It groups the customers on the basis of their previous purchase transactions.
 
-Thereafter a comparison of control stores and trial stores are done prior to the trial period of Feb 2019 in terms of the following performance metrics :
-- Monthly overall sales revenue
-- Monthly number of customers
+In this analysis the customer segment was divided into 11 groups. The groups being : 
+- Platinum Customers
+- Very Loyal Customers
+- Recent Customers
+- Potential Customers
+- Lost Customers
+- Losing Customers
+- Late Bloomer
+- High Risk Customers
+- Evasive Customers
+- Becoming Loyal
+- Almost lost Customers
 
-The ranking of how similar a potential store is similar to a trial store is based on a composite score of the following :
-- correlation between the trial store’s performance and each control store’s performance
-- standardised metric based on the absolute difference between the trial store’s performance and each control store’s performance
+As of the current state of the Automobile business the current distribution of customers segments is depicted below:
+<img src="data%20visualization/Customer%20Segment%20Distribution.PNG" height="400" align="middle">
 
-The final composite score is simple average of the correlation and magnitude scores for each driver. The store with the highest composite score is then selected as the control store since it is most similar to the trial store.
+### 4. RFM Analysis Scatter Plots
+#### Recency vs Monetary :
+The visualization shows that recent customers have purchased more products and generated relatively more revenue than the customers who visited a while ageo.<br>
+<img src="data%20visualization/Recency%20vs%20Monetary.png" height="600" align="middle"><br>
 
-The trial store and control store pairs are geiven below :
-- For trail store 77, the control store is 233
-- For trail store 86, the control store is 155
-- For trail store 88, the control store is 237
-
-Visualizations depicting how similar trial stores and control strores are is given below :<br>
-<img src="data%20visualization/Trial%20Store%2077.png" height="600" align="middle"><br>
-<img src="data%20visualization/Trial%20Store%2086.png" height="600" align="middle"><br>
-<img src="data%20visualization/Trial%20Store%2088.png" height="600" align="middle"><br>
+#### Frequency vs Monetary : 
+The visualization shows that customers belonging to Platinum/ Very Loyal/ Becoming Loyal Customer Segments have a greater frequency and generate greater monetary for the business<br>
+<img src="data%20visualization/Frequency%20vs%20Monetary.png" height="600" align="middle"><br>
 
 ## Datasets Used
 The datasets used include:

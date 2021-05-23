@@ -75,9 +75,9 @@ Visualizations depicting how similar trial stores and control strores are is giv
 The datasets used include:
 - __Raw_data.xlsx__: This excel file dataset included the following sheets of data:
   -  __Transactions_data.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
-  -  __NewCustomerList.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
-  -  __CustomerDemographic.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
-  -  __CustomerAddress.xlsx__: This dataset included the transactions data of the customers across all the different states in Australia.
+  -  __NewCustomerList.xlsx__: This dataset included the new customers who visted the automobile bike company recently.
+  -  __CustomerDemographic.xlsx__: This dataset included entire details of the Customer Demographics.
+  -  __CustomerAddress.xlsx__: This dataset included the address of the Customers.
 
 
 ## Tools and Technologies used

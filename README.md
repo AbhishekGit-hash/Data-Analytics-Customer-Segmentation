@@ -28,10 +28,22 @@ In the data cleaning step the data quality of the datasets were first assesed. A
 - Checked whether there are duplicate records present in the dataset. 
 
 ### 2. Exploratory Data Analysis on Customer Segments
-After the data cleaning process, we defined mertics of interest that will drive metrics of interest that will drive our analysis :
-- <b>Customer Segments who spend the most on chips, described based on their lifestage and the premium tier they belong</b><br> 
-Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - young singles/couples ($ 157,622) and Mainstream- retirees ($ 155,677) which contributes to 25% of the total sales of $ 1,933 K.
-<img src="data%20visualization/Sales%20across%20Customer%20Segments.png" height="600" align="middle">
+After the data cleaning process, exploratory analysis on the dataset is performed and the following insights are obtained :
+- <b>New vs Old Customers Age Distribution</b><br> 
+  - Most New customers are aged between 40-49 also for Old Customers the most of them are aged between 40-49
+  - The lowest number of customers for both the types of customers is present in the age bracket under 20 and above 80 age groups.
+  - The automobile company is popular among New Customers among the age groups 20-29 and 40-49. 
+  - A steep drop in customers is observed in the 30-39 age group among the New Customers
+  <table>
+  <tr>
+    <td>Old Customers</td>
+    <td>New Customers</td>
+  </tr>
+  <tr>
+    <td><img src="data%20visualization/Old%20Customers%20Age%20Distribution.png" height="400" align="middle"></td>
+    <td><img src="data%20visualization/New%20Customers%20Age%20Distribution.png" height="400" align="middle"></td>
+  </tr>
+  </table>
 
 - <b>Number of Customers in each Customer Segment</b><br>
 Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream) which explains their high total sales. There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment. However amount of chips bought per customer can be a determining factor for higher sales.

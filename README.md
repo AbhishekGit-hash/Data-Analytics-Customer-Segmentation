@@ -9,6 +9,7 @@ The purpose of this project is to gain insights from the yearly transactions and
 
 ## Tableau Dashboard
 The Sales Dashboard for Customer Segmenation can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard).<br>
+<img src="data%20visualization/Sales%20Dashboard.gif" height="600" align="middle">
 
 
 

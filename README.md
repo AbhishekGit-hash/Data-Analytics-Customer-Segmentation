@@ -33,15 +33,35 @@ After the data cleaning process, exploratory analysis on the dataset is performe
   - Most New customers are aged between 40-49 also for Old Customers the most of them are aged between 40-49
   - The lowest number of customers for both the types of customers is present in the age bracket under 20 and above 80 age groups.
   - The automobile company is popular among New Customers among the age groups 20-29 and 40-49. 
-  - A steep drop in customers is observed in the 30-39 age group among the New Customers
+  - A steep drop in customers is observed in the 30-39 age group among the New Customers<br>
   <table>
   <tr>
-    <td>Old Customers</td>
-    <td>New Customers</td>
+    <td><b>Old Customers</b></td>
+    <td><b>New Customers</b></td>
   </tr>
   <tr>
-    <td><img src="data%20visualization/Old%20Customers%20Age%20Distribution.png" height="400" align="middle"></td>
-    <td><img src="data%20visualization/New%20Customers%20Age%20Distribution.png" height="400" align="middle"></td>
+    <td><img src="data%20visualization/Old%20Customers%20Age%20Distribution.PNG" height="400" align="middle"></td>
+    <td><img src="data%20visualization/New%20Customers%20Age%20Distribution.PNG" height="400" align="middle"></td>
+  </tr>
+  </table>
+  
+- <b>Bike purchases over last 3 years by Gender</b><br> 
+  - Most bike puechases are done by Feamale over the last 3 years. Approximately 51% of the bike purchases are done by Female compared to 49% of the purchases being done by Male.
+  - The Female purchases are 10,000 more than that of Male purchases (numerically).
+  <img src="data%20visualization/Female%20vs%20Male%20Bike%20Purchases.PNG" height="400" align="middle">
+  
+- <b>New vs Old Customers Job Industry Distribution</b><br> 
+  - Most New customers are from the Manufacturing and Financial Services sector (approx 20% of the New Customers).
+  - The lowest number of customers are from the Agriculture and Telecom sector approx 3%.
+  - Similar trend is observed among Old Customers as well.<br>
+  <table>
+  <tr>
+    <td><b>Old Customers</b></td>
+    <td><b>New Customers</b></td>
+  </tr>
+  <tr>
+    <td><img src="data%20visualization/Old%20Customers%20Job%20Industry.PNG" height="400" align="middle"></td>
+    <td><img src="data%20visualization/New%20Customers%20Job%20Industry.PNG" height="400" align="middle"></td>
   </tr>
   </table>
 

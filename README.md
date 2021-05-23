@@ -77,38 +77,14 @@ The datasets used include:
 - __Transaction_data.xlsx__: This dataset includes the transaction details for customer.
 
 
-## Data Dictionary
-
-### Purchase_Behaviour
-
-| Table Column | Data Type | Description |
-| -------- | ------------- | --------- |
-| LYLTY_CARD_NBR (PRIMARY_KEY) | integer  | Liability Number of a customer, primary key to identify a customer |
-|  LIFESTAGE | varchar(32) | Lifestage of the customer like young / midage / old singles or couples |
-| PREMIUM_CUSTOMER | varchar(32) | Premium Level of the Customer like Mainstream / Budget / Premium |
-
-### Transaction_data
-
-| Table Column | Data Type | Description |
-| ------------ | ---------- | --------- |
-| TXN_ID (PRIMARY_KEY) | integer  | primary key for Transaction ID |
-|  DATE | integer | Occurance date of Transaction  |
-| STORE_NBR | integer | Store Number at which the purchase transaction happened |
-| LYLTY_CARD_NBR (FOREIGN KEY) | integer | Customer's Liability Number |
-| PROD_NBR | integer | Product Number of the product  |
-| PROD_NAME | varchar(32) |  Product Name |
-| PROD_QTY | integer |  Product Quantity purchased |
-| TOT_SALES | integer | Total Sales Amount |
-
-
 ## Tools and Technologies used
 The tools used in this project include:
 - __Python__ - This was needed to conduct <b>Data Quality Assessment</b> and also for <b>Data Cleaning processes</b>. With Python libraries <b>pandas, matplotlib, seaborn</b> exploratory data analysis of the datasets and to gain useful insights from the data was possible.
-- __Tableau__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>data story</b> of the analysis of Retail Strategy. The Tableau Data Story can be found [here](https://public.tableau.com/views/RetailStoreStrategyandAnalytics/RetailAnalyticsAnalysisStory?:language=en&:display_count=y&:origin=viz_share_link)
+- __Tableau__ - This <b>Business Intelligence</b> tool was required to explore data and create charts, graphs, visualizations to come up with a <b>Sales Dashboard for Customer Segmenatationy</b> for the automobile bike company. The Tableau Sales Dashboard can be found [here](https://public.tableau.com/views/RetailStoreStrategyandAnalytics/RetailAnalyticsAnalysisStory?:language=en&:display_count=y&:origin=viz_share_link)
 
 
 ## Built With
-- Python 2.7, Tableau
+- Python, Tableau
 
 ## Authors
 - Abhishek Chowdhury - [Github Profile](https://github.com/AbhishekGit-hash)

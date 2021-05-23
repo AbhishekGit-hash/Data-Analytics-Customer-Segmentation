@@ -106,7 +106,7 @@ In this analysis the customer segment was divided into 11 groups. The groups bei
 As of the current state of the Automobile business the current distribution of customers segments is depicted below:
 <img src="data%20visualization/Customer%20Segment%20Distribution.PNG" height="400" align="middle">
 
-### 4. RFM Analysis Scatter Plots
+### 4. RFM Analysis: Scatter Plots
 #### Recency vs Monetary :
 The visualization shows that recent customers have purchased more products and generated relatively more revenue than the customers who visited a while ageo.<br>
 <img src="data%20visualization/Recency%20vs%20Monetary.PNG" height="400" align="middle"><br>
